@@ -1,0 +1,19 @@
+h1{
+            color: red;
+            font-family: cursive;
+            background-color: black;
+            text-align: center;
+        }
+        p{
+            color: blue; 
+            background-color: yellow; 
+            font-family: sans-serif;
+        }
+        h3{
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: violet;
+        }
+        body{
+            background-color: aquamarine
+        }
