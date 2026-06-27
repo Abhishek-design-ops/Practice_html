@@ -1,19 +1,50 @@
+/* individual selectors */
+/* select individual tags and style it*/
 h1{
-            color: red;
-            font-family: cursive;
-            background-color: black;
-            text-align: center;
-        }
-        p{
-            color: blue; 
-            background-color: yellow; 
-            font-family: sans-serif;
-        }
-        h3{
-            color: black;
-            font-family: 'Times New Roman', Times, serif;
-            background-color: violet;
-        }
-        body{
-            background-color: aquamarine
-        }
+    color: red;
+    font-family: cursive;
+    background-color: black;
+    text-align: center;
+}
+p{
+    color: blue; 
+    background-color: yellow; 
+    font-family: sans-serif;
+}
+h3{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: violet;
+}
+body{
+    background-color: aquamarine
+}
+
+/* universal selector */
+*{
+background-color: white;
+
+}
+
+/* Group selectors */
+/* * select all the tags in the html file */
+h1,h1,h3{
+    background-color: grey;
+}
+
+/* Class selectors */
+/* The attribute name class, that class name could be anything*/
+/* syntax: .classname */
+.heading{
+background-color: aquamarine;
+}
+
+/* ID selector */
+/* the attribute named id,the name foe id could be unique */
+/* syntax: #idName */
+#intro{
+background-color: yellowgreen;
+}
+
+/* combining different selectors */
+/* inside html tag we can call attribute and different attributes */
