@@ -22,7 +22,7 @@ body{
 
 /* universal selector */
 *{
-background-color: white;
+    background-color: white;
 
 }
 
@@ -36,15 +36,17 @@ h1,h1,h3{
 /* The attribute name class, that class name could be anything*/
 /* syntax: .classname */
 .heading{
-background-color: aquamarine;
+    background-color: aquamarine;
 }
 
 /* ID selector */
 /* the attribute named id,the name foe id could be unique */
 /* syntax: #idName */
 #intro{
-background-color: yellowgreen;
+    background-color: yellowgreen;
 }
 
 /* combining different selectors */
 /* inside html tag we can call attribute and different attributes */
+
+
